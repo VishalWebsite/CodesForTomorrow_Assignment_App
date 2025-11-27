@@ -1,0 +1,11 @@
+
+.container { padding:20px; font-family:Arial; background-color: #f0f0f0; }
+.cardContainer { display:grid; grid-template-columns:repeat(3,1fr); gap:15px; }
+.card { border:1px solid #ccc; padding:15px; border-radius:8px; position:relative; background-color: white; }
+.removeBtn { position:absolute; top:5px; right:5px; color:red; }
+.listView { grid-column: span 3; }
+.topBar { display:flex; gap:10px; margin-bottom:20px; }
+.pagination button { margin:4px; padding:6px 10px; }
+.active { background:black; color:white; }
+.formContainer { position:fixed; top:20%; left:35%; background:white; padding:20px; border:1px solid #ccc; }
+.formContainer input, .formContainer textarea { width:100%; margin-bottom:10px; padding:8px; }
